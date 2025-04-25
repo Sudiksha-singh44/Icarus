@@ -62,6 +62,7 @@ body {
 }
 
 
+
 button {
     align-items: left;
 
@@ -72,7 +73,7 @@ button {
     text-align: left;
     line-height: 20px;
     border: 0;
-
+    cursor: pointer;
 }
 
 .btn-summary {
@@ -87,8 +88,9 @@ button {
 
 
 
-button a:hover {
+.nav-btn:hover {
     background-color: grey;
+   
 }
 
 .review-container {
@@ -267,13 +269,7 @@ h1 {
     animation-direction: alternate;
 }
 
-.animate-box {
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    position: relative;
-    animation: moveRight 2s ease-in-out infinite alternate;
-}
+
 
 @keyframes moveRight {
     from {
